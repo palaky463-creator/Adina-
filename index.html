@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adina Institute of Science and Technology</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>Adina Institute</h2>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#hero" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#courses" class="nav-link">Courses</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#gallery" class="nav-link">Gallery</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section with Slider -->
+    <section id="hero" class="hero">
+        <div class="hero-slider">
+            <div class="slide active">
+                <div class="slide-content">
+                    <h1>Welcome to Adina Institute</h1>
+                    <p>Excellence in Science and Technology Education</p>
+                    <button class="cta-button">Explore Programs</button>
+                </div>
+                <div class="slide-bg bg1"></div>
+            </div>
+            <div class="slide">
+                <div class="slide-content">
+                    <h1>Innovation in Education</h1>
+                    <p>State-of-the-art facilities and modern teaching methods</p>
+                    <button class="cta-button">Learn More</button>
+                </div>
+                <div class="slide-bg bg2"></div>
+            </div>
+            <div class="slide">
+                <div class="slide-content">
+                    <h1>Your Future Starts Here</h1>
+                    <p>Join thousands of successful graduates</p>
+                    <button class="cta-button">Apply Now</button>
+                </div>
+                <div class="slide-bg bg3"></div>
+            </div>
+        </div>
+        <div class="slider-controls">
+            <button class="prev-slide">&#10094;</button>
+            <button class="next-slide">&#10095;</button>
+        </div>
+        <div class="slider-dots">
+            <span class="dot active" data-slide="0"></span>
+            <span class="dot" data-slide="1"></span>
+            <span class="dot" data-slide="2"></span>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Adina Institute</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Leading the Way in Technical Education</h3>
+                    <p>Adina Institute of Science and Technology is a premier educational institution dedicated to providing world-class education in science and technology fields. Established with a vision to nurture talent and foster innovation, we offer comprehensive programs designed to meet the evolving needs of the industry.</p>
+                    <p>Our state-of-the-art campus, experienced faculty, and industry-aligned curriculum ensure that our students are well-prepared for successful careers in the rapidly advancing technological landscape.</p>
+                    <div class="stats">
+                        <div class="stat-item">
+                            <h4>5000+</h4>
+                            <p>Students</p>
+                        </div>
+                        <div class="stat-item">
+                            <h4>200+</h4>
+                            <p>Faculty Members</p>
+                        </div>
+                        <div class="stat-item">
+                            <h4>95%</h4>
+                            <p>Placement Rate</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="https://images.unsplash.com/photo-1541339907198-e08756dedf3f?w=600&h=400&fit=crop" alt="Campus Building">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Courses Section -->
+    <section id="courses" class="courses">
+        <div class="container">
+            <h2 class="section-title">Our Courses</h2>
+            <div class="courses-grid">
+                <div class="course-card">
+                    <div class="course-image">
+                        <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?w=400&h=250&fit=crop" alt="Computer Science">
+                    </div>
+                    <div class="course-content">
+                        <h3>Computer Science & Engineering</h3>
+                        <p>Comprehensive program covering software development, algorithms, and emerging technologies.</p>
+                        <div class="course-details">
+                            <span class="duration">4 Years</span>
+                            <span class="seats">120 Seats</span>
+                        </div>
+                        <button class="course-btn">Learn More</button>
+                    </div>
+                </div>
+
+                <div class="course-card">
+                    <div class="course-image">
+                        <img src="https://images.unsplash.com/photo-1573804633927-bfcbcd909acd?w=400&h=250&fit=crop" alt="Electrical Engineering">
+                    </div>
+                    <div class="course-content">
+                        <h3>Electrical Engineering</h3>
+                        <p>Advanced studies in electrical systems, power engineering, and renewable energy.</p>
+                        <div class="course-details">
+                            <span class="duration">4 Years</span>
+                            <span class="seats">90 Seats</span>
+                        </div>
+                        <button class="course-btn">Learn More</button>
+                    </div>
+                </div>
+
+                <div class="course-card">
+                    <div class="course-image">
+                        <img src="https://images.unsplash.com/photo-1581092795360-fd1ca04f0952?w=400&h=250&fit=crop" alt="Mechanical Engineering">
+                    </div>
+                    <div class="course-content">
+                        <h3>Mechanical Engineering</h3>
+                        <p>Hands-on training in design, manufacturing, and thermal systems.</p>
+                        <div class="course-details">
+                            <span class="duration">4 Years</span>
+                            <span class="seats">100 Seats</span>
+                        </div>
+                        <button class="course-btn">Learn More</button>
+                    </div>
+                </div>
+
+                <div class="course-card">
+                    <div class="course-image">
+                        <img src="https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=400&h=250&fit=crop" alt="Civil Engineering">
+                    </div>
+                    <div class="course-content">
+                        <h3>Civil Engineering</h3>
+                        <p>Building the future with sustainable infrastructure and construction practices.</p>
+                        <div class="course-details">
+                            <span class="duration">4 Years</span>
+                            <span class="seats">80 Seats</span>
+                        </div>
+                        <button class="course-btn">Learn More</button>
+                    </div>
+                </div>
+
+                <div class="course-card">
+                    <div class="course-image">
+                        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=250&fit=crop" alt="MBA Program">
+                    </div>
+                    <div class="course-content">
+                        <h3>MBA Program</h3>
+                        <p>Business leadership and management skills for the modern corporate world.</p>
+                        <div class="course-details">
+                            <span class="duration">2 Years</span>
+                            <span class="seats">60 Seats</span>
+                        </div>
+                        <button class="course-btn">Learn More</button>
+                    </div>
+                </div>
+
+                <div class="course-card">
+                    <div class="course-image">
+                        <img src="https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=400&h=250&fit=crop" alt="Data Science">
+                    </div>
+                    <div class="course-content">
+                        <h3>Data Science</h3>
+                        <p>Master the art of data analysis, machine learning, and business intelligence.</p>
+                        <div class="course-details">
+                            <span class="duration">2 Years</span>
+                            <span class="seats">50 Seats</span>
+                        </div>
+                        <button class="course-btn">Learn More</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <h2 class="section-title">Campus Gallery</h2>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1541339907198-e08756dedf3f?w=400&h=300&fit=crop" alt="Campus Building">
+                    <div class="gallery-overlay">
+                        <h4>Main Campus</h4>
+                        <p>Modern infrastructure with world-class facilities</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1580584126903-c17d41830450?w=400&h=300&fit=crop" alt="Library">
+                    <div class="gallery-overlay">
+                        <h4>Library</h4>
+                        <p>Extensive collection of books and digital resources</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1551434678-e076c223a692?w=400&h=300&fit=crop" alt="Laboratory">
+                    <div class="gallery-overlay">
+                        <h4>Laboratories</h4>
+                        <p>State-of-the-art labs for practical learning</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1524178232363-1fb2b075b655?w=400&h=300&fit=crop" alt="Sports Complex">
+                    <div class="gallery-overlay">
+                        <h4>Sports Complex</h4>
+                        <p>Modern sports facilities for overall development</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1584697964358-3e14ca57658b?w=400&h=300&fit=crop" alt="Auditorium">
+                    <div class="gallery-overlay">
+                        <h4>Auditorium</h4>
+                        <p>Spacious auditorium for events and seminars</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&h=300&fit=crop" alt="Hostel">
+                    <div class="gallery-overlay">
+                        <h4>Hostel</h4>
+                        <p>Comfortable accommodation for students</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Contact Us</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Get in Touch</h3>
+                    <div class="info-item">
+                        <div class="info-icon">📍</div>
+                        <div class="info-text">
+                            <h4>Address</h4>
+                            <p>Adina Institute of Science and Technology<br>
+                            123 Education Avenue, Knowledge City<br>
+                            Tech State, India - 123456</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-icon">📞</div>
+                        <div class="info-text">
+                            <h4>Phone</h4>
+                            <p>+91 123-456-7890<br>
+                            +91 987-654-3210</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-icon">✉️</div>
+                        <div class="info-text">
+                            <h4>Email</h4>
+                            <p>info@adina.edu.in<br>
+                            admissions@adina.edu.in</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-icon">🌐</div>
+                        <div class="info-text">
+                            <h4>Website</h4>
+                            <p>www.adina.edu.in</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm" class="form">
+                        <div class="form-group">
+                            <label for="name">Full Name *</label>
+                            <input type="text" id="name" name="name" required>
+                            <span class="error-message" id="nameError"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address *</label>
+                            <input type="email" id="email" name="email" required>
+                            <span class="error-message" id="emailError"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone Number *</label>
+                            <input type="tel" id="phone" name="phone" required>
+                            <span class="error-message" id="phoneError"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="course">Course of Interest</label>
+                            <select id="course" name="course">
+                                <option value="">Select a Course</option>
+                                <option value="cse">Computer Science & Engineering</option>
+                                <option value="ee">Electrical Engineering</option>
+                                <option value="me">Mechanical Engineering</option>
+                                <option value="ce">Civil Engineering</option>
+                                <option value="mba">MBA Program</option>
+                                <option value="ds">Data Science</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message *</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                            <span class="error-message" id="messageError"></span>
+                        </div>
+                        <button type="submit" class="submit-btn">Send Message</button>
+                        <div class="success-message" id="successMessage">
+                            Thank you for your message! We'll get back to you soon.
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Adina Institute</h3>
+                    <p>Empowering the next generation of innovators and leaders in science and technology.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link">📘</a>
+                        <a href="#" class="social-link">🐦</a>
+                        <a href="#" class="social-link">📸</a>
+                        <a href="#" class="social-link">💼</a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#courses">Courses</a></li>
+                        <li><a href="#gallery">Gallery</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="#">Admissions</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Programs</h4>
+                    <ul>
+                        <li><a href="#">Engineering</a></li>
+                        <li><a href="#">Management</a></li>
+                        <li><a href="#">Diploma Courses</a></li>
+                        <li><a href="#">Certificate Programs</a></li>
+                        <li><a href="#">Research</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Resources</h4>
+                    <ul>
+                        <li><a href="#">Student Portal</a></li>
+                        <li><a href="#">Faculty Portal</a></li>
+                        <li><a href="#">Library</a></li>
+                        <li><a href="#">Career Services</a></li>
+                        <li><a href="#">Alumni</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Adina Institute of Science and Technology. All rights reserved.</p>
+                <div class="footer-bottom-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                    <a href="#">Cookie Policy</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
